@@ -1,9 +1,3 @@
-.navbar {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-}
-
 .title {
 	font-size: calc(40px + 2.5vw);
 	font-family: 'KG Happy';
@@ -25,4 +19,21 @@
 	color: white;
 	margin-left: 20px;
 	text-shadow: 5px 5px 20px black;
+}
+
+.navbar-toggler {
+	background-color: #ffffff4a;
+	border: var(--bs-border-width) solid #f8f9fa00;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+@media (min-width: 768px){
+	.navbar-expand-md .navbar-collapse {
+			display: flex!important;
+			flex-basis: auto;
+			justify-content: flex-end;
+	}
 }

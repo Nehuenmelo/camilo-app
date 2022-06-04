@@ -1,8 +1,18 @@
-<div ngClass="navbar">
-	<h1 [routerLink]="['/home']" ngClass="title">Camilo</h1>
-	<nav ngClass="items">
-		<a [routerLink]="['/productos']" [routerLinkActive]="['active']" ngClass="link">Productos</a>
-		<a [routerLink]="['/nosotros']" [routerLinkActive]="['active']" ngClass="link">Nosotros</a>
-		<a [routerLink]="['/contacto']" [routerLinkActive]="['active']" ngClass="link">Contacto</a>
-	</nav>
-</div>
+<nav ngClass="navbar navbar-expand-md d-flex justify-content-between">
+		
+	
+		<h1 [routerLink]="['/home']" ngClass="title">Camilo</h1>
+		
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+		
+		<div ngClass="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul ngClass="items">
+				<a [routerLink]="['/productos']" [routerLinkActive]="['active']" ngClass="link">Productos</a>
+				<a [routerLink]="['/nosotros']" [routerLinkActive]="['active']" ngClass="link">Nosotros</a>
+				<a [routerLink]="['/contacto']" [routerLinkActive]="['active']" ngClass="link">Contacto</a>
+			</ul>
+		</div>
+	
+</nav>
