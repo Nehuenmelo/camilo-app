@@ -1,0 +1,28 @@
+.navbar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.title {
+	font-size: calc(40px + 2.5vw);
+	font-family: 'KG Happy';
+	color: white;
+	margin-top: 40px;
+	margin-block-start: 0px;
+	font-weight: lighter;
+	text-shadow: 5px 5px 20px rgb(107, 107, 107);
+}
+
+.items {
+	margin-top: 50px;
+	margin-bottom: 0px;
+}
+
+.link {
+	font-family: 'KG Happy Solid';
+	text-decoration: none;
+	color: white;
+	margin-left: 20px;
+	text-shadow: 5px 5px 20px black;
+}

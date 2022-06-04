@@ -1,0 +1,73 @@
+.bg {
+	/* Location of the image */
+	background-image: url(../../../../assets/img/PANADERIA-FRANCESA-1.jpg);
+
+	/* Background image is centered vertically and horizontally at all times */
+	background-position: center center;
+
+	/* Background image doesn't tile */
+	background-repeat: no-repeat;
+
+	/* Background image is fixed in the viewport so that it doesn't move when 
+			the content's height is greater than the image's height */
+	background-attachment: fixed;
+
+	/* This is what makes the background image rescale based
+			on the container's size */
+	background-size: cover;
+
+	/* Set a background color that will be displayed
+			while the background image is loading */
+	background-color: #464646;
+
+	position: sticky;
+	top: 0;
+	width: 100%;
+	padding-top: 20px;
+	height: 97vh;
+}
+
+.boxAnuncio {
+	background-color: rgba(255, 0, 0, 0.791);
+	border: 5px solid white;
+	padding: 20px;
+	width: 30em;
+	position: absolute;
+	bottom: 80px;
+	right: 70px;
+
+	h2, p{
+		color: white;
+		text-align: center;
+		margin-bottom: 20px;
+		font-family: 'KG Happy Solid';
+	}
+	h2 {
+		-webkit-text-stroke: 1px black; /* BORDER - width and color */
+		font-size: 25px;
+		margin-block-start: 0px;
+	}
+	p {
+		font-size: 15px;
+	}
+	
+	button {
+		margin: 0px auto;
+		margin-bottom: 10px;
+		display: block;
+		padding: 10px;
+		box-shadow: 10px 10px 4px rgba(49, 49, 49, 0.74); 
+		border: 0px;
+		cursor: pointer;
+		a{
+				font-family: "KG Happy Solid";
+				font-size: 1.2em;
+				color: black;
+		}
+		a:hover {
+				color: red;
+				text-decoration: none;
+		}
+	}
+}
+

@@ -1,0 +1,26 @@
+@font-face {
+	font-family: "KG Happy";
+	src: url("../assets/fonts/KGHAPPY.ttf");
+}
+
+@font-face {
+	font-family: "KG Happy Solid";
+	src: url("../assets/fonts/KGHAPPYSolid.ttf");
+}
+
+@font-face {
+	font-family: "KG Happy 2";
+	src: url("../assets/fonts/KGHAPPYShadows.ttf");
+}
+
+.main {
+	background-color: rgb(238, 238, 238);
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.container {
+	width: 80%;
+	margin: 0px auto;
+}
