@@ -1,3 +1,7 @@
+* {
+	display: none;
+}
+
 .bg {
 	/* Location of the image */
 	background-image: url(../../../../assets/img/PANADERIA-FRANCESA-1.jpg);
@@ -20,7 +24,7 @@
 			while the background image is loading */
 	background-color: #464646;
 
-	position: sticky;
+	position: static;
 	top: 0;
 	width: 100%;
 	padding-top: 20px;

@@ -9,8 +9,10 @@
 }
 
 .items {
-	margin-top: 50px;
-	margin-bottom: 0px;
+		width: 390px;
+		margin: 0px auto;
+		margin-top: 20px;
+		margin-bottom: 0px;
 }
 
 .link {
@@ -35,5 +37,10 @@
 			display: flex!important;
 			flex-basis: auto;
 			justify-content: flex-end;
+	}
+
+	.items {
+		margin: initial;
+		margin-top: 20px;
 	}
 }

@@ -1,0 +1,8 @@
+<div ngClass="container">
+	<p>parrafo</p>
+	<div fxLayout="row wrap" fxLayoutGap="16px">
+		<div fxFlex="25%" *ngFor="let item of categories">
+			<app-product-item [item]="item"></app-product-item>
+		</div>
+	</div>
+</div>
