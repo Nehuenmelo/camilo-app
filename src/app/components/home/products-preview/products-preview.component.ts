@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Category } from 'src/app/models/category';
 import { PeticionesService } from 'src/app/services/peticiones.service';
 import { ProductItemComponent } from '../product-item/product-item.component';
-
+import categoriesData from '../../../mocks/categories-img.json';
 @Component({
   selector: 'app-products-preview',
   templateUrl: './products-preview.component.html',
@@ -34,7 +34,8 @@ export class ProductsPreviewComponent implements OnInit {
 			}
 		)
 		*/
-		this.categories = this._peticionesService.getCategoriesService()
+		//this.categories = this._peticionesService.getCategoriesService()
+		this.categories = categoriesData;
 	}
 
 }

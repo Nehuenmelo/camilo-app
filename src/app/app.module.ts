@@ -19,6 +19,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { TortasComponent } from './pages/products-pages/tortas/tortas.component';
 import { TartasComponent } from './pages/products-pages/tartas/tartas.component';
 import { FooterComponent } from './shared/footer/footer.component';
+import { BudinesComponent } from './pages/products-pages/budines/budines.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { FooterComponent } from './shared/footer/footer.component';
     ProductsComponent,
     TortasComponent,
     TartasComponent,
-    FooterComponent
+    FooterComponent,
+    BudinesComponent
   ],
   imports: [
     BrowserModule,

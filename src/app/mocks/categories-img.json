@@ -1,0 +1,56 @@
+[
+	{
+		"id": 0,
+		"name": "Tortas",
+		"photo_link": "assets/img/tortas.jpg",
+		"taste": "dulce"
+	},
+	{
+		"id": 1,
+		"name": "Tartas",
+		"photo_link": "assets/img/tartas.jpg",
+		"taste": "dulce"
+	},
+	{
+		"id": 2,
+		"name": "Budines",
+		"photo_link": "assets/img/budines.jpg",
+		"taste": "dulce"
+	},
+	{
+		"id": 3,
+		"name": "Medialunas JQ",
+		"photo_link": "assets/img/medialunajq.jpg",
+		"taste": "dulce"
+	},
+	{
+		"id": 4,
+		"name": "Masas Finas",
+		"photo_link": "assets/img/masas_finas.jpg",
+		"taste": "dulce"
+	},
+	{
+		"id": 5,
+		"name": "Masas Secas",
+		"photo_link": "assets/img/masas_secas.jpg",
+		"taste": "dulce"
+	},
+	{
+		"id": 6,
+		"name": "Sand. de Miga",
+		"photo_link": "assets/img/sand_miga.jpg",
+		"taste": "salado"
+	},
+	{
+		"id": 7,
+		"name": "Prepizzas",
+		"photo_link": "assets/img/prepizzas1.jpg",
+		"taste": "salado"
+	},
+	{
+		"id": 8,
+		"name": "Bebidas",
+		"photo_link": "assets/img/prepizzas1.jpg",
+		"taste": ""
+	}
+]
