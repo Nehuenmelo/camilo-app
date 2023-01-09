@@ -1,0 +1,72 @@
+*{
+	font-family: 'KG Happy Solid';
+}
+
+.products {
+	background-color: #1d1d1d;
+}
+
+.title {
+	font-size: calc(40px + 2.5vw);
+	font-family: 'KG Happy';
+	color: white;
+	padding-top: 20px;
+	margin-left: 40px;
+	font-weight: lighter;
+	text-shadow: 5px 5px 20px rgb(107, 107, 107);
+	display: inline;
+	cursor: pointer;
+}
+
+.toggle-sidenav-button{
+	float: right;
+	margin: 20px;
+}
+
+mat-sidenav-container {
+	height: calc(100vh - 65px);
+	color: white;
+	background: rgb(95, 95, 95);
+}
+
+mat-sidenav {
+	width: 200px;
+	background: rgb(255, 0, 0);
+	margin: 16px;
+	color: white;
+	border-radius: 10px;
+	padding: 7px;
+
+	h4 {
+		display: flex;
+		justify-content: center;
+		margin-top: 8px;
+		margin-bottom: 25px;
+		font-family: 'KG Happy Solid';
+	}
+}
+
+.menu-button {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	font-size: 1rem;
+	background-color: rgb(197, 31, 31);
+	color: white;
+	font-family: 'KG Happy Solid';
+	margin-bottom: 10px;
+}
+
+.menu-button:hover {
+	background-color: rgb(155, 43, 43);
+}
+
+.content {
+	margin: 16px;
+	padding-top: 30px;
+	margin-left: 32px;
+	border-radius: 10px;
+
+	background-color: rgb(31, 31, 31);
+	font-size: 2rem;
+}

@@ -1,0 +1,29 @@
+.subtitle {
+	display: block;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 30px;
+	font-family: 'KG Happy';
+}
+
+.items-section {
+	display: grid;
+	gap: 1rem;
+	grid-auto-rows: 17rem;
+	grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
+	grid-template-rows: auto;
+	width: 90%;
+	margin: 0 auto;
+	padding: 20px;
+
+	.img img {
+		width: 100%;
+		margin: 0px auto;
+	}	
+
+	.label {
+		display: flex;
+		justify-content: center;
+		margin-top: 17px;
+	}
+}

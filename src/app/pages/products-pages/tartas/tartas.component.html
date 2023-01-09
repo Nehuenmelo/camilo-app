@@ -1,0 +1,7 @@
+<h2 class="subtitle">Tartas</h2>
+<div class="items-section">
+	<div class="img" *ngFor="let tarta of tartas">
+		<img src={{tarta.url}} alt={{tarta.id}}>
+		<h5 class="label">{{tarta.id}}</h5>
+	</div>
+</div>

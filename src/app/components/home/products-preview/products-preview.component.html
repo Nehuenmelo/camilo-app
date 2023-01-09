@@ -1,8 +1,11 @@
+<h2 id="products-title">Nuestros productos</h2>
 <div ngClass="container">
-	<p>parrafo</p>
-	<div fxLayout="row wrap" fxLayoutGap="16px">
-		<div fxFlex="25%" *ngFor="let item of categories">
+	<div class="gallery">
+		<div class="card" *ngFor="let item of categories">
 			<app-product-item [item]="item"></app-product-item>
 		</div>
+	</div>
+	<div id="showMore" routerLink="/products">
+		<h2>Mostrar más</h2>
 	</div>
 </div>

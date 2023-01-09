@@ -1,0 +1,44 @@
+.subtitle {
+	display: block;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 30px;
+	font-family: 'KG Happy';
+}
+
+.options {
+	display: flex;
+	flex-direction: row;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	margin-bottom: 30px;
+}
+
+.option {
+	h4 {
+		margin-bottom: 15px;
+		border-bottom: 2px solid white;
+	}
+	p {
+		font-size: 1.5rem;
+	}
+}
+
+.decoraciones {
+	max-width: 100%;
+
+	.items-decoraciones {
+		display: grid;
+		gap: 1rem;
+		grid-auto-rows: 10rem;
+		grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
+		grid-template-rows: auto;
+		width: 90%;
+		margin: 0 auto;
+		padding: 20px;
+
+		.img img {
+			width: 200px;
+		}	
+	}
+}

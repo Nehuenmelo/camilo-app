@@ -1,7 +1,3 @@
-* {
-	display: none;
-}
-
 .bg {
 	/* Location of the image */
 	background-image: url(../../../../assets/img/PANADERIA-FRANCESA-1.jpg);
@@ -71,6 +67,7 @@
 		a:hover {
 				color: red;
 				text-decoration: none;
+				transition: all 0.3s ease;
 		}
 	}
 }

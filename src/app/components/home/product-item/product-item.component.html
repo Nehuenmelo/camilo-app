@@ -1,8 +1,7 @@
-<div class="card">
+<div >
   <img [src]=item.photo_link class="card-img-top" alt="...">
   <div class="card-body">
-		<p>{{item.name}}</p>
-		<p>{{item.photo_link}}</p>
-		<p>{{item.taste}}</p>
+		<h2>{{item.name}}</h2>
+		<h4 [ngClass]="item.taste == 'dulce' ? 'dulce' : 'salado'">{{item.taste}}</h4>
   </div>
 </div>

@@ -1,0 +1,40 @@
+<div class="products">
+	<header>
+		<div class="title" [routerLink]="['/']">Camilo</div>
+		<button mat-icon-button class="toggle-sidenav-button" *ngIf="sidenav.mode === 'over'" (click)="sidenav.toggle()">
+			<mat-icon *ngIf="!sidenav.opened">menu</mat-icon>
+			<mat-icon *ngIf="sidenav.opened">close</mat-icon>
+		</button>
+	</header>
+	<div class="container">
+		<mat-sidenav-container>
+			<mat-sidenav #sidenav="matSidenav">
+					<h4>Categorías</h4>
+					<button mat-button class="menu-button" (click)="switchCategory('tortas')">
+						<span>Tortas</span>
+					</button>
+					<button mat-button class="menu-button" (click)="switchCategory('tartas')">
+						<span>Tartas</span>
+					</button>
+					<button mat-button class="menu-button" (click)="switchCategory('budines')">
+						<span>Budines</span>
+					</button>
+					<button mat-button class="menu-button" (click)="switchCategory('sand-miga')">
+						<span>Sand. Miga</span>
+					</button>
+					<button mat-button class="menu-button" (click)="switchCategory('otros')">
+						<span>Otros</span>
+					</button>
+			</mat-sidenav>
+			<!-- Body -->
+			<mat-sidenav-content>
+				<div class="content mat-elevation-z4">
+					<app-tortas *ngIf="category == 'tortas'"></app-tortas>
+					<app-tartas *ngIf="category == 'tartas'"></app-tartas>
+				</div>
+			</mat-sidenav-content>
+		</mat-sidenav-container>
+	</div>
+	<footer></footer>
+</div>
+<app-footer></app-footer>

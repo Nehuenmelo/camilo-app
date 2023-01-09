@@ -1,0 +1,29 @@
+<h2 class="subtitle">Tortas</h2>
+<div class="options">
+	<div class="option precios">
+		<h4>Precios/<br>tamaños</h4>
+		<p>- S $1800</p>
+		<p>- M $2000</p>
+		<p>- L $2200</p>
+		<p>- XL $2400</p>
+	</div>
+	<div class="option rellenos">
+		<h4>Rellenos (2)</h4>
+		<p>- Dulce de leche</p>
+		<p>- Crema</p>
+		<p>- Mouse de chocolate</p>
+	</div>
+	<div class="option bizcochuelo">
+		<h4>Bizcochuelo</h4>
+		<p>- Vainilla</p>
+		<p>- Chocolate (+$100)</p>
+	</div>
+</div>
+<div class="decoraciones">
+	<h2 class="subtitle">Decoraciones</h2>
+	<div class="items-decoraciones">
+		<div class="img" *ngFor="let torta of tortas">
+			<img src={{torta.url}} alt={{torta.id}}>
+		</div>
+	</div>
+</div>

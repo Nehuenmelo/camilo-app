@@ -24,9 +24,8 @@ export class ProductsPreviewComponent implements OnInit {
   }
 
 	getCategories(){
-		this._peticionesService.getCategoriesService().subscribe(
+		/*this._peticionesService.getCategoriesService().subscribe(
 			result => {
-				//console.log(result);
 				this.categories = result;
 				console.log(this.categories);
 			},
@@ -34,6 +33,8 @@ export class ProductsPreviewComponent implements OnInit {
 				console.log(error);
 			}
 		)
+		*/
+		this.categories = this._peticionesService.getCategoriesService()
 	}
 
 }

@@ -1,0 +1,29 @@
+footer {
+	background-color: black;
+	color: white;
+	padding: 50px;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	flex-flow: row wrap;
+}
+
+h2 {
+	display: inline;
+	font-size: 3.5rem;
+	line-height: 100px;
+	font-family: 'KG Happy Solid';
+}
+
+.contact-info {
+	float: right;
+	font-size: 1.6rem;
+	font-family: 'KG Happy Solid';
+}
+
+.icon {
+	margin-right: 10px;
+}

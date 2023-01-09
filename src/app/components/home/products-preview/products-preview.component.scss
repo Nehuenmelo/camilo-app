@@ -1,0 +1,43 @@
+.gallery {
+	display: grid;
+	gap: 1rem;
+	grid-auto-rows: 17rem;
+	grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
+	grid-template-rows: auto;
+	width: 90%;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.card {
+	height: max-content;
+	text-align: center;
+}
+
+
+#products-title {
+	text-align: center;
+	margin-top: 70px;
+	color: white;
+	background-color: red;
+	font-family: 'KG Happy Solid';
+}
+
+#showMore {
+	width: 290px;
+	padding: 16px;
+	margin: 0px auto;
+	margin-top: 20px;
+	background-color: red;
+	text-align: center;
+	h2 {
+		color: white;
+		padding-top: 5px;
+		line-height: 35px;
+		font-family: 'KG Happy';
+	}
+	h2:hover {
+		-webkit-text-stroke: 1px black; /* BORDER - width and color */
+		transition: all 0.3s ease;
+	}
+}
